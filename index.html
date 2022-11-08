@@ -154,7 +154,7 @@
                 if (firstActive < firstFree) {
                     for (i = firstActive; i < firstFree; i++)
                         particles[i].update(deltaTime);
-                }
+               }
                 if (firstFree < firstActive) {
                     for (i = firstActive; i < particles.length; i++)
                         particles[i].update(deltaTime);
